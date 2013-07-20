@@ -1,0 +1,32 @@
+#######################################
+# Syntax Coloring Map For Test
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+EEPROMList	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+clear KEYWORD2
+size KEYWORD2
+get KEYWORD2
+add KEYWORD2
+exists KEYWORD2
+getInfo KEYWORD2
+checkIntegrity KEYWORD2
+calculateHashCode KEYWORD2
+
+######################################
+# Instances (KEYWORD2)
+#######################################
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
