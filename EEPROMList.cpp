@@ -93,14 +93,17 @@ bool EEPROMList::add(uint8_t* element){
 }
 
 bool EEPROMList::exists(uint8_t* element){
-  uint8_t* current;
+	return getPosition(element)>=0;
+}
+
+uint16_t EEPROMList::getPosition(uint8_t* element){
   for(uint16_t i=0; i<size(); i++){
-    current = get(i);
-    if(compare(current, element)==0){
-	  return true;
+    if(compare(get(i), element)==0){
+	  return i;
     }
   }
-  return false;
+  return -1;
+	
 }
 
 int8_t EEPROMList::compare(uint8_t* element1, uint8_t* element2){

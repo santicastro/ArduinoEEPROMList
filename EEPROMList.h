@@ -23,6 +23,7 @@ public:
   uint8_t* get(uint16_t position);
   bool add(uint8_t* element);
   bool exists(uint8_t* element);
+  uint16_t getPosition(uint8_t* element);
 
   listInfoType getInfo();
 
